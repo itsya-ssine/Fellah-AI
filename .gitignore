@@ -1,0 +1,67 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Node
+node_modules/
+dist/
+build/
+.next/
+.turbo/
+*.log
+pnpm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.pem
+*.jks
+*.keystore
+google-services.json
+GoogleService-Info.plist
+
+# Android / iOS build output
+apps/farmer-app/android/.gradle/
+apps/farmer-app/android/build/
+apps/farmer-app/android/app/build/
+apps/farmer-app/android/local.properties
+apps/farmer-app/ios/App/Pods/
+
+# Data and models: tracked with DVC, never with plain git
+data/**
+!data/*/
+!data/README.md
+!data/**/README.md
+!data/**/.gitkeep
+*.tflite
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.wav
+*.mp3
+*.opus
+!content/audio/README.md
+.dvc/cache
+.dvc/tmp
+mlruns/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*

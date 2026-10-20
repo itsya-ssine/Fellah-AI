@@ -1,0 +1,6 @@
+{
+  "name": "@fellah/capacitor-tflite",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Native Capacitor plugin for on-device TFLite inference"
+}

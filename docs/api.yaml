@@ -1,0 +1,20 @@
+openapi: 3.0.3
+info:
+  title: Fellah AI API
+  version: 0.0.1
+  description: Contract-first API definition. Changes land here before the code that depends on them.
+paths:
+  /health:
+    get:
+      summary: Health check
+      responses:
+        "200":
+          description: Service is up
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: ok

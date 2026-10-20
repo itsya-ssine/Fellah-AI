@@ -1,0 +1,6 @@
+{
+  "name": "@fellah/farmer-app",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Farmer app: React PWA packaged for Android with Capacitor"
+}

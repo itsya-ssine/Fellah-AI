@@ -1,0 +1,6 @@
+{
+  "name": "@fellah/ui",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Shared UI components, theme, RTL and Tifinagh support"
+}

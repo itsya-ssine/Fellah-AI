@@ -1,0 +1,14 @@
+# @rihabetm: vision and farmer app. @itsya-ssine: data, irrigation, language, backend, dashboard.
+/ml/                    @rihabetm
+/plugins/               @rihabetm
+/apps/farmer-app/       @rihabetm
+/backend/               @itsya-ssine
+/irrigation/            @itsya-ssine
+/content/               @itsya-ssine
+/data/whatsapp_ingestion/ @itsya-ssine
+/apps/dashboard/        @itsya-ssine
+/packages/api-client/   @itsya-ssine
+/packages/ui/           @rihabetm @itsya-ssine
+/packages/i18n/         @rihabetm @itsya-ssine
+/infra/                 @rihabetm @itsya-ssine
+/docs/                  @rihabetm @itsya-ssine
