@@ -1,0 +1,21 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  apps/dashboard: {}
+
+  apps/farmer-app: {}
+
+  packages/api-client: {}
+
+  packages/i18n: {}
+
+  packages/ui: {}
+
+  plugins/tflite: {}
