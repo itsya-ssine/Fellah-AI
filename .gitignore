@@ -65,3 +65,5 @@ mlruns/
 .terraform/
 *.tfstate
 *.tfstate.*
+
+desktop.ini
