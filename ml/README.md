@@ -9,4 +9,4 @@ ml/
   src/                          Training, evaluation, quality checks, export
 ```
 
-Rules: datasets versioned with DVC, experiments tracked with MLflow, the field test set frozen and split by farm/field and date.
+Rules: public datasets only, versioned with DVC; experiments tracked with MLflow; the held-out public test set frozen; splits deduplicated and never random by image (see `docs/evaluation-protocol.md`).

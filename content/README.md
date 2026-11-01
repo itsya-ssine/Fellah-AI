@@ -10,6 +10,6 @@ content/
 ```
 
 Rules:
-- Every advice entry needs an agronomist sign-off flag before it can be published.
-- Chemicals must be on the ONSSA-approved list, with dose, pre-harvest interval and safety notes.
+- Every advice entry must cite at least one public source (title, URL, retrieval date) before it can be published. Unsourced entries fail validation.
+- Chemicals must be on the public ONSSA approved list. Dose, pre-harvest interval and safety notes are copied from the public label data, never generated.
 - Prefer curated templates over free-form generation.

@@ -19,5 +19,8 @@ Examples:
 ## Contracts first
 Change `docs/api.yaml` or `docs/model-contract.md` in a PR **before** the code that depends on them, and tag the other engineer.
 
+## Data
+Use public datasets only. Register every dataset in `data/public_datasets/registry.csv` (source, license, intended role) before using it.
+
 ## Never commit
-Real farmer data, photos, phone numbers, API keys, `.env` files, model binaries, or audio files.
+Dataset files (use DVC), phone numbers, API keys, `.env` files, model binaries, or audio files.

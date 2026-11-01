@@ -1,0 +1,6 @@
+dataset,url,license,image_style,labels,intended_role,notes
+PlantVillage,TBD,TBD (verify),lab-style plain background,crop and disease,pretraining; disease classes,"Generalizes poorly to real fields; many augmented copies, dedupe before splitting"
+PlantDoc,TBD,TBD (verify),in-the-wild,crop and disease,fine-tuning; held-out test,Closest public proxy to phone photos in the field
+PlantNet-300K,TBD,TBD (verify),in-the-wild,plant species,crop classifier; OOD negatives,"Species identification, not disease"
+iNaturalist,TBD,TBD (verify),in-the-wild,species,OOD negatives; non-crop plants,"Species identification, not disease"
+Cassava Leaf Disease (Kaggle),TBD,TBD (verify),field images,disease,optional extra disease data,Only relevant if cassava is in scope

@@ -5,7 +5,7 @@
 /backend/               @itsya-ssine
 /irrigation/            @itsya-ssine
 /content/               @itsya-ssine
-/data/whatsapp_ingestion/ @itsya-ssine
+/data/                  @itsya-ssine
 /apps/dashboard/        @itsya-ssine
 /packages/api-client/   @itsya-ssine
 /packages/ui/           @rihabetm @itsya-ssine

@@ -1,7 +1,9 @@
 # Fellah AI
 
 Crop disease diagnosis and irrigation guidance for smallholder farmers, in Darija and Amazigh.
-A farmer photographs a sick plant, gets a diagnosis and treatment advice (text and audio), and receives daily irrigation recommendations.
+A user photographs a sick plant, gets a diagnosis and treatment advice (text and audio), and receives daily irrigation recommendations.
+
+**Data policy:** public datasets only. Models, advice and irrigation parameters are built from open datasets and published sources. The project does not depend on farmer-supplied photos or feedback, or on expert labeling, sign-off or escalation. See `docs/decisions/0003-public-datasets-only.md`.
 
 **Approach:** React PWA wrapped with Capacitor for Android, a FastAPI backend, an FAO-56 irrigation engine, and on-device diagnosis through a native TFLite plugin.
 
@@ -10,7 +12,7 @@ A farmer photographs a sick plant, gets a diagnosis and treatment advice (text a
 ```
 apps/
   farmer-app/        React PWA + Capacitor (@rihabetm)
-  dashboard/         Cooperative dashboard (@itsya-ssine)
+  dashboard/         Regional dashboard, public weather and water data (@itsya-ssine)
 packages/
   ui/                Shared components and theme
   api-client/        Client generated from docs/api.yaml
@@ -21,7 +23,7 @@ backend/             FastAPI service (@itsya-ssine)
 irrigation/          FAO-56 engine (@itsya-ssine)
 ml/                  Training, evaluation, export, spikes (@rihabetm)
 content/             Knowledge base, glossary, audio manifest (@itsya-ssine)
-data/                Data docs only; real data via DVC
+data/                Data docs and public dataset registry; real data via DVC
 infra/               Terraform, Docker, CI config
 docs/                Blueprint, pipeline, contracts, decisions, tasks
 ```
