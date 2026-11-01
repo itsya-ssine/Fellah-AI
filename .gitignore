@@ -48,6 +48,7 @@ data/**
 !data/README.md
 !data/**/README.md
 !data/**/.gitkeep
+!data/public_datasets/registry.csv
 *.tflite
 *.onnx
 *.pt
